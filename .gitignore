@@ -1,3 +1,18 @@
+# Composer-managed: `composer install` puts these back.
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Site data: the SQLite database, hash salt and uploaded files.
+/private/
+/web/sites/*/files/
+/web/sites/*/settings.local.php
+/web/sites/simpletest/
+
 .env
 .fleet/
 .fleet-deploy.log
+*.log
